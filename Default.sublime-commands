@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "Preferences: isorter",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/isorter/isorter.sublime-settings",
+            "default": "{\n\t$0\n}\n"
+        }
+    },
+    {
+        "caption": "Preferences: isorter Key Bindings",
+        "command": "edit_settings",
+        "args": {
+            "base_file": "${packages}/isorter/Default (${platform}).sublime-keymap",
+            "default": "[\n\t$0\n]\n"
+        }
+    },
+    {
+        "caption": "isorter: Open Readme",
+        "command": "open_file",
+        "args": {
+            "file": "${packages}/isorter/README.md"
+        }
+    },
+    {
+        "caption": "isorter: Run isort on a file.",
+        "command": "isort_python"
+    },
+    {
+        "caption": "isorter: Check import order with isort.",
+        "command": "isort_python",
+        "args": { "check": true }
+    }
+]

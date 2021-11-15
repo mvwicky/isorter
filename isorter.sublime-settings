@@ -1,0 +1,13 @@
+{
+    // Make isort a bit louder.
+    "isort_verbose": false,
+    // The timeout in seconds.
+    "isort_timeout": 2,
+    // Where to find the `isort` executable
+    "isort_path": "",
+    // Log level
+    // `DEBUG`, `INFO`, `WARNING`, `ERROR`, or `CRITICAL`
+    "isort_log_level": "INFO",
+    // Run isort on save.
+    "isort_on_save": false
+}
